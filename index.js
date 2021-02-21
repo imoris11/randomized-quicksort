@@ -19,7 +19,7 @@ const getData = () => {
 }
 
 const printLogs = (max, min, size) => {
-    console.log(`Generating data of ${size} numbers`)
+    console.log(`\nGenerating data of ${size} numbers\n`)
     generateTestData(max, min, size)
     let A =  getData()
     let B = [...A] //make a copy of A
